@@ -1,25 +1,26 @@
 import React, { useState, useEffect } from 'react';
+import pic1 from '../public/pic1.jpg'
 
 function Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
     {
-      image: "https://wallpapercave.com/wp/wp7333847.jpg",
+      image: './pic1.jpg',
       title: "INSPIRING, BEAUTIFUL, BREATHTAKING",
       subtitle: "Visiting Andaman was a dream come true. The crystal-clear beaches, peaceful islands, and rich history made it an unforgettable experience. We especially loved the boat rides and the Cellular Jail light show!",
       location: "Machu Picchu",
       highlight: "Unforgettable Journeys Await"
     },
     {
-      image: "https://images.pexels.com/photos/2554603/pexels-photo-2554603.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "./pic2.jpg",
       title: "EXPLORE ANCIENT WONDERS",
       subtitle: "Andaman is pure magic. From snorkeling in Havelock to relaxing at Radhanagar Beach, every moment was picture-perfect. The people were friendly and the food was delicious too!",
       location: "Sacred Valley",
       highlight: "Discover the Magic of Andaman"
     },
     {
-      image: "https://i.pinimg.com/736x/6e/61/a5/6e61a5c90207f8d614b3ed08c33b23f0.jpg",
+      image: "./pic3.jpg",
       title: "AUTHENTIC CULTURAL EXPERIENCE",
       subtitle: "We were amazed by the beauty of the coral reefs and untouched beaches. If you love nature, peace, and adventure, Andaman is the place to be.",
       location: "Cusco Region",
